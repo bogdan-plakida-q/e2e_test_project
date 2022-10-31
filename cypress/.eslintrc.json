@@ -1,0 +1,12 @@
+{
+  "plugins": [
+    "cypress"
+  ],
+  "rules": {
+    "cypress/no-unnecessary-waiting": "error",
+    "cypress/no-pause": "error"
+  },
+  "extends": [
+    "plugin:cypress/recommended"
+  ]
+}
